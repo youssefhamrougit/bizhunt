@@ -1,0 +1,9 @@
+{
+  "name": "bizhunt",
+  "version": "1.0.0",
+  "description": "Hunt local businesses with no website",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
