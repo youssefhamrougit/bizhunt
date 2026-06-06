@@ -128,8 +128,10 @@
           </div>
 
           <div class="form-group">
-            <label for="city-input">City</label>
-            <input type="text" id="city-input" placeholder="e.g. Tunis, Dubai, Paris..." disabled>
+            <label for="city-select">City</label>
+            <select id="city-select" disabled onchange="onCityChange()">
+              <option value="">— Select city —</option>
+            </select>
           </div>
 
           <div class="form-group">
@@ -222,4 +224,3 @@
   <script src="main.js"></script>
 </body>
 </html>
-                                                                                                                                            
